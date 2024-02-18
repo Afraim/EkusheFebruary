@@ -1,0 +1,807 @@
+body {
+    height: 100%;
+    background-color: black;
+    transition: background-color 2s ease-in;
+}
+.pol{
+    background-color: black;
+    width: 5px;
+    height: 250px;
+    position: relative;
+    left: 65px;
+    bottom: 55px;
+    z-index: 0;
+}
+.flag{
+    width: 0px;
+    position: relative;
+    left: 5px;
+}
+.shaheedMinar {
+    background-color: black;
+    width: 500px; /* Adjust width as needed */
+    max-width: 500px; /* Limit maximum width */
+    height: 200px; /* Adjust height as needed */
+    position: relative;
+    margin: 100px auto; /* Center horizontally and vertically */
+    transition: background-color 2s ease-in;
+}
+
+.base {
+    background-color: black;
+    width: 500px;
+    height: 12px; /* Adjust height as needed */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.stair1 {
+    background-color: black;
+    width: 450px;
+    height: 10px; /* Adjust height as needed */
+    position: absolute;
+    bottom: 12px; /* Adjust position as needed */
+    left: 250px;
+    transform: translateX(-50%);
+    z-index: 3;
+}
+
+.stair2 {
+    background-color: black;
+    width: 375px;
+    height: 10px; /* Adjust height as needed */
+    position: absolute;
+    bottom: 20px; /* Adjust position as needed */
+    left: 250px;
+    transform: translateX(-50%);
+    z-index: 3;
+}
+.pillar{
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    width: 15px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+}
+.left1 {
+    position: absolute;
+    bottom: 0px; /* Adjust position as needed */
+    left: 93px; /* Adjust position as needed */
+    z-index: 2;
+}
+
+.left2 {
+    position: absolute;
+    bottom: 18px; /* Adjust position as needed */
+    left: 150px; /* Adjust position as needed */
+    z-index: 2;
+}
+
+.right1 {
+    position: absolute;
+    bottom: 0px; /* Adjust position as needed */
+    right: 94px; /* Adjust position as needed */
+    z-index: 2;
+}
+
+.right2 {
+    position: absolute;
+    bottom: 18px; /* Adjust position as needed */
+    right: 150px; /* Adjust position as needed */
+    z-index: 2;
+}
+
+.main1 {
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    width: 25px; /* Adjust width as needed */
+    height: 85px; /* Adjust height as needed */
+    position: absolute;
+    bottom: 21.5px; /* Adjust position as needed */
+    left: 210px; /* Adjust position as needed */
+    border-radius: 2.5px;
+    z-index: 2;
+}
+
+.main2 {
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    width: 25px; /* Adjust width as needed */
+    height: 85px; /* Adjust height as needed */
+    position: absolute;
+    bottom: 21.5px; /* Adjust position as needed */
+    right: 210px; /* Adjust position as needed */
+    z-index: 2;
+}
+
+.head1 {
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    width: 20px;
+    height: 35px;
+    position: relative;
+    bottom: 57px;
+    left: -3px;
+    transform: skewX(-14deg);
+    z-index: 1;
+}
+
+.head2 {
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    width: 20px; /* Adjust width as needed */
+    height: 35px; /* Adjust height as needed */
+    position: relative;
+    bottom: 57px; /* Adjust position as needed */
+    right: -1px; /* Adjust position as needed */
+    transform: skewX(-14deg);
+    z-index: 1;
+}
+
+.sun {
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    border-radius:50%;
+    background-color: red;
+    position: absolute;
+    z-index: 0;
+    bottom: -70px; /* Adjust position as needed */
+    right: 200px; /* Adjust position as needed */
+    transition: ease-in-out bottom 2s;
+}
+
+.block {
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    transition: 2s ease-in;
+    background-color: black;
+    width: 500px;
+    height: 150px;
+    padding-top: 40px; /* Adjust height as needed */
+    position: absolute;
+    bottom: 120px;
+    left: 440px;
+    margin-top: 4px;
+    z-index: 1;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between; /* Align items with space between them */
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    font-size: small;
+    width: 98%; /* Ensure full width of the footer */
+}
+.instructions {
+    position: absolute;
+    bottom: 310px;
+    left: 600px;
+    color: white;
+    z-index: 5;
+}
+
+.audio {
+    /* No need for display: flex here */
+    margin-right: 25px; /* Add some margin to separate from the right edge */
+}
+@media screen and (max-width: 1075px) {
+    body {
+        height: 100%;
+        background-color: black;
+        transition: background-color 2s ease-in;
+    }
+    
+    .shaheedMinar {
+        background-color: black;
+        width: 500px; /* Adjust width as needed */
+        max-width: 500px; /* Limit maximum width */
+        height: 200px; /* Adjust height as needed */
+        position: relative;
+        margin: 100px auto; /* Center horizontally and vertically */
+        transition: background-color 2s ease-in;
+    }
+    
+    .base {
+        background-color: black;
+        width: 500px;
+        height: 12px; /* Adjust height as needed */
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 3;
+    }
+    
+    .stair1 {
+        background-color: black;
+        width: 450px;
+        height: 10px; /* Adjust height as needed */
+        position: absolute;
+        bottom: 12px; /* Adjust position as needed */
+        left: 250px;
+        transform: translateX(-50%);
+        z-index: 3;
+    }
+    
+    .stair2 {
+        background-color: black;
+        width: 375px;
+        height: 10px; /* Adjust height as needed */
+        position: absolute;
+        bottom: 20px; /* Adjust position as needed */
+        left: 250px;
+        transform: translateX(-50%);
+        z-index: 3;
+    }
+    .pillar{
+        border-style: solid;
+        border-color: black;
+        border-width: 10px;
+        width: 15px; /* Adjust width as needed */
+        height: 50px; /* Adjust height as needed */
+    }
+    .left1 {
+        position: absolute;
+        bottom: 0px; /* Adjust position as needed */
+        left: 93px; /* Adjust position as needed */
+        z-index: 2;
+    }
+    
+    .left2 {
+        position: absolute;
+        bottom: 18px; /* Adjust position as needed */
+        left: 150px; /* Adjust position as needed */
+        z-index: 2;
+    }
+    
+    .right1 {
+        position: absolute;
+        bottom: 0px; /* Adjust position as needed */
+        right: 94px; /* Adjust position as needed */
+        z-index: 2;
+    }
+    
+    .right2 {
+        position: absolute;
+        bottom: 18px; /* Adjust position as needed */
+        right: 150px; /* Adjust position as needed */
+        z-index: 2;
+    }
+    
+    .main1 {
+        border-style: solid;
+        border-color: black;
+        border-width: 10px;
+        width: 25px; /* Adjust width as needed */
+        height: 85px; /* Adjust height as needed */
+        position: absolute;
+        bottom: 21.5px; /* Adjust position as needed */
+        left: 210px; /* Adjust position as needed */
+        border-radius: 2.5px;
+        z-index: 2;
+    }
+    
+    .main2 {
+        border-style: solid;
+        border-color: black;
+        border-width: 10px;
+        width: 25px; /* Adjust width as needed */
+        height: 85px; /* Adjust height as needed */
+        position: absolute;
+        bottom: 21.5px; /* Adjust position as needed */
+        right: 210px; /* Adjust position as needed */
+        z-index: 2;
+    }
+    
+    .head1 {
+        border-style: solid;
+        border-color: black;
+        border-width: 10px;
+        width: 20px;
+        height: 35px;
+        position: relative;
+        bottom: 57px;
+        left: -3px;
+        transform: skewX(-14deg);
+        z-index: 1;
+    }
+    
+    .head2 {
+        border-style: solid;
+        border-color: black;
+        border-width: 10px;
+        width: 20px; /* Adjust width as needed */
+        height: 35px; /* Adjust height as needed */
+        position: relative;
+        bottom: 57px; /* Adjust position as needed */
+        right: -1px; /* Adjust position as needed */
+        transform: skewX(-14deg);
+        z-index: 1;
+    }
+    
+    .sun {
+        width: 100px; /* Adjust width as needed */
+        height: 100px; /* Adjust height as needed */
+        border-radius:50%;
+        background-color: red;
+        position: absolute;
+        z-index: 0;
+        bottom: -70px; /* Adjust position as needed */
+        right: 200px; /* Adjust position as needed */
+        transition: ease-in-out bottom 2s;
+    }
+    
+    .block {
+        color: rgb(255, 255, 255);
+        font-size: larger;
+        font-weight: bolder;
+        text-align: center;
+        transition: 2s ease-in;
+        background-color: black;
+        width: 500px;
+        height: 150px;
+        padding-top: 40px; /* Adjust height as needed */
+        position: absolute;
+        bottom: 50px;
+        left: 280px;
+        margin-top: 4px;
+        z-index: 1;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: space-between; /* Align items with space between them */
+        position: absolute;
+        bottom: 0;
+        left: 150px;
+        font-size: small;
+        width: 900px; /* Ensure full width of the footer */
+    }
+    .instructions {
+        position: absolute;
+        bottom: 230px;
+        left: 450px;
+        color: white;
+        z-index: 5;
+    }
+    
+    .audio {
+        /* No need for display: flex here */
+        margin-right: 25px; /* Add some margin to separate from the right edge */
+    } 
+}
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    .shaheedMinar {
+        background-color: black;
+        width: 500px; /* Adjust width as needed */
+        max-width: 500px; /* Limit maximum width */
+        height: 200px; /* Adjust height as needed */
+        position: relative;
+        margin: 100px auto; /* Center horizontally and vertically */
+        transition: background-color 2s ease-in;
+    }
+    .sun {
+        width: 100px; /* Adjust width as needed */
+        height: 100px; /* Adjust height as needed */
+        border-radius:50%;
+        background-color: red;
+        position: absolute;
+        z-index: 0;
+        bottom: -70px; /* Adjust position as needed */
+        right: 200px; /* Adjust position as needed */
+        transition: ease-in-out bottom 2s;
+    }
+    .block {    
+        height: 110px;  
+        bottom: 70px; /* Adjust position as needed */
+        left: 130px;
+        z-index: 1;
+    }
+    .instructions{
+        position: absolute;
+        bottom: 220px;
+        left: 300px;
+        color: white;
+        z-index: 5;
+    }
+    footer {
+        display: flex;
+        justify-content: space-between; /* Align items with space between them */
+        position: absolute;
+        bottom: 0;
+        left: 15px;
+        font-size: small;
+        width: 760px; /* Ensure full width of the footer */
+    }
+
+}
+@media screen and (max-width: 520px) {
+    .shaheedMinar {
+        background-color: black;
+        width: 250px; /* Adjust width as needed */
+        max-width: 250px; /* Limit maximum width */
+        height: 100px; /* Adjust height as needed */
+        position: absolute;
+        left: -50px;
+        top: 100px;
+        margin: 0px auto; /* Center horizontally and vertically */
+        transition: background-color 2s ease-in;
+    }
+    .pol{
+        position: absolute;
+        left: 175px;
+        height: 180px;
+        bottom: 0px;
+    }
+    .base {
+        background-color: black;
+        width: 250px;
+        height: 8px; /* Adjust height as needed */
+        position: absolute;
+        bottom: 0;
+        left: 140px;
+        z-index: 3;
+    }
+    
+    .stair1 {
+        background-color: black;
+        width: 220px;
+        height: 8px; /* Adjust height as needed */
+        position: absolute;
+        bottom: 8px; /* Adjust position as needed */
+        left: 265px;
+        transform: translateX(-50%);
+        z-index: 3;
+    }
+    
+    .stair2 {
+        background-color: black;
+        width: 190px;
+        height: 8px; /* Adjust height as needed */
+        position: absolute;
+        bottom: 15px; /* Adjust position as needed */
+        left: 265px;
+        transform: translateX(-50%);
+        z-index: 3;
+    }
+    .pillar{
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        width: 18px; /* Adjust width as needed */
+        height: 50px; /* Adjust height as needed */
+    }
+    .left1 {
+        position: absolute;
+        bottom: 0px; /* Adjust position as needed */
+        left: 186px; /* Adjust position as needed */
+        z-index: 2;
+    }
+    
+    .left2 {
+        position: absolute;
+        bottom: 10px; /* Adjust position as needed */
+        left: 214px; /* Adjust position as needed */
+        z-index: 2;
+    }
+    
+    .right1 {
+        position: absolute;
+        bottom: 0px; /* Adjust position as needed */
+        left: 320px; /* Adjust position as needed */
+        z-index: 2;
+    }
+    
+    .right2 {
+        position: absolute;
+        bottom: 10px; /* Adjust position as needed */
+        left: 292px; /* Adjust position as needed */
+        z-index: 2;
+    }
+    
+    .main1 {
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        width: 15px; /* Adjust width as needed */
+        height: 55px; /* Adjust height as needed */
+        position: absolute;
+        bottom: 20px; /* Adjust position as needed */
+        left: 244px; /* Adjust position as needed */
+        border-radius: 2.5px;
+        z-index: 2;
+    }
+    
+    .main2 {
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        width: 15px; /* Adjust width as needed */
+        height: 55px; /* Adjust height as needed */
+        position: absolute;
+        bottom: 20px; /* Adjust position as needed */
+        left: 265px; /* Adjust position as needed */
+        z-index: 2;
+    }
+    
+    .head1 {
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        width: 15px;
+        height: 18px;
+        position: relative;
+        bottom: 25px;
+        left: 0px;
+        transform: skewX(-14deg);
+        z-index: 1;
+    }
+    
+    .head2 {
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        width: 15px; /* Adjust width as needed */
+        height: 18px; /* Adjust height as needed */
+        position: relative;
+        bottom: 25px; /* Adjust position as needed */
+        right: 1px; /* Adjust position as needed */
+        transform: skewX(-14deg);
+        z-index: 1;
+    }
+    
+    .sun {
+        width: 50px; /* Adjust width as needed */
+        height: 50px; /* Adjust height as needed */
+        border-radius:50%;
+        background-color: red;
+        position: absolute;
+        z-index: 0;
+        bottom: -30px; /* Adjust position as needed */
+        left: 239.5px; /* Adjust position as needed */
+        transition: ease-in-out bottom 2s;
+    }
+    
+    .block {
+        color: rgb(255, 255, 255);
+        font-size: small;
+        font-weight: bolder;
+        text-align: center;
+        transition: 2s ease-in;
+        background-color: black;
+        width: 500px;
+        height: 5px;
+        padding: 15px; /* Adjust height as needed */
+        position: absolute;
+        bottom: 125px;
+        left: -40px;
+        margin-top: 4px;
+        z-index: 1;
+    }
+    .instructions {
+        font-size: x-small;
+        position: absolute;
+        bottom: 160px;
+        left: 155px;
+        color: rgb(255, 255, 255);
+        z-index: 5;
+    }
+    footer {
+        z-index: 99;
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        bottom: 120px;
+        font-size: 6px;
+        width: 400px;
+        flex-direction: row-reverse;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    
+    .audio {
+        /* No need for display: flex here */
+        margin-right: 25px; /* Add some margin to separate from the right edge */
+    }
+    
+    
+}
+@media screen and (max-width: 360px) {
+    .shaheedMinar {
+        
+        background-color: black;
+        width: 500px; /* Adjust width as needed */
+        max-width: 500px; /* Limit maximum width */
+        height: 200px; /* Adjust height as needed */
+        position: relative;
+        margin: 100px auto; /* Center horizontally and vertically */
+        transition: background-color 2s ease-in;
+    }
+    .pol{
+        left: 95px;
+    }
+    .base {
+        background-color: black;
+        width: 250px;
+        height: 8px; /* Adjust height as needed */
+        position: absolute;
+        bottom: 0;
+        left: 50px;
+        z-index: 3;
+    }
+    
+    .stair1 {
+        background-color: black;
+        width: 220px;
+        height: 8px; /* Adjust height as needed */
+        position: absolute;
+        bottom: 8px; /* Adjust position as needed */
+        left: 175px;
+        transform: translateX(-50%);
+        z-index: 3;
+    }
+    
+    .stair2 {
+        background-color: black;
+        width: 180px;
+        height: 8px; /* Adjust height as needed */
+        position: absolute;
+        bottom: 15px; /* Adjust position as needed */
+        left: 175px;
+        transform: translateX(-50%);
+        z-index: 3;
+    }
+    .pillar{
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        width: 15px; /* Adjust width as needed */
+        height: 50px; /* Adjust height as needed */
+    }
+    .left1 {
+        position: absolute;
+        bottom: 0px; /* Adjust position as needed */
+        left: 107px; /* Adjust position as needed */
+        z-index: 2;
+    }
+    
+    .left2 {
+        position: absolute;
+        bottom: 10px; /* Adjust position as needed */
+        left: 132px; /* Adjust position as needed */
+        z-index: 2;
+    }
+    
+    .right1 {
+        position: absolute;
+        bottom: 0px; /* Adjust position as needed */
+        left: 228px; /* Adjust position as needed */
+        z-index: 2;
+    }
+    
+    .right2 {
+        position: absolute;
+        bottom: 10px; /* Adjust position as needed */
+        left: 203px; /* Adjust position as needed */
+        z-index: 2;
+    }
+    
+    .main1 {
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        width: 15px; /* Adjust width as needed */
+        height: 55px; /* Adjust height as needed */
+        position: absolute;
+        bottom: 20px; /* Adjust position as needed */
+        left: 156.5px; /* Adjust position as needed */
+        border-radius: 2.5px;
+        z-index: 2;
+    }
+    
+    .main2 {
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        width: 15px; /* Adjust width as needed */
+        height: 55px; /* Adjust height as needed */
+        position: absolute;
+        bottom: 20px; /* Adjust position as needed */
+        left: 178px; /* Adjust position as needed */
+        z-index: 2;
+    }
+    
+    .head1 {
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        width: 15px;
+        height: 18px;
+        position: relative;
+        bottom: 25px;
+        left: 0px;
+        transform: skewX(-14deg);
+        z-index: 1;
+    }
+    
+    .head2 {
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        width: 15px; /* Adjust width as needed */
+        height: 18px; /* Adjust height as needed */
+        position: relative;
+        bottom: 25px; /* Adjust position as needed */
+        right: 1px; /* Adjust position as needed */
+        transform: skewX(-14deg);
+        z-index: 1;
+    }
+    
+    .sun {
+        width: 50px; /* Adjust width as needed */
+        height: 50px; /* Adjust height as needed */
+        border-radius:50%;
+        background-color: red;
+        position: absolute;
+        z-index: 0;
+        bottom: -30px; /* Adjust position as needed */
+        left: 153px; /* Adjust position as needed */
+        transition: ease-in-out bottom 2s;
+    }
+    
+    .block {
+        color: rgb(255, 255, 255);
+        font-size: small;
+        font-weight: bolder;
+        text-align: center;
+        transition: 2s ease-in;
+        background-color: black;
+        width: 100%;
+        height: 50px;
+        padding-top: 40px; /* Adjust height as needed */
+        position: absolute;
+        bottom: 130px;
+        left: 0;
+        margin-top: 4px;
+        z-index: 1;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        bottom: 0;
+        font-size: x-small;
+        width: 99%;
+        flex-direction: row-reverse;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .instructions {
+        font-size: smaller;
+        position: absolute;
+        bottom: 220px;
+        left: 30%;
+        color: rgb(255, 255, 255);
+        z-index: 5;
+    }
+    
+    .audio {
+        /* No need for display: flex here */
+        margin-right: 25px; /* Add some margin to separate from the right edge */
+    }
+    
+    
+}
+
